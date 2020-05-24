@@ -14,6 +14,8 @@
 
 //Declaration
 #include <iostream>
+#include <vector>
+
 using namespace std;
 
 int main_pointer(){
@@ -103,6 +105,32 @@ int main_pointer(){
     int n = int_ptr1 - int_ptr2; //The result is obvious (if the data types match)
     int_ptr1 == int_ptr2; //Simple logic operator
 
+    //Const in pointers restrict certain things
+    /*
+     * Pointer to constants -> const int *score_ptr, data in the pointer is fixed, however the pointer can be changed to point something else
+     * Constants pointers -> int *const score_ptr, the data in the pointer can be changed, the pointer cannot point something else
+     * Constant pointer to constant ->  const int *const score_ptr, pretty obvious what it does
+     */
+
+    //Passing pointers to functions (in parameters)
+    void double_data(int *int_ptr){
+        *int_ptr *= 2;
+    }
+    double_data(&value); //pass the address to the function in order for the pointer to receive it
+    //Remember that dereferencing to a vector takes the vector, not the first element.
+    vector<string> str_vector {"Larry", "Mary"};
+    vector<string> *vector_ptr {&str_vector};
+    for(string str: *vector_ptr){
+        cout << str;
+    }
+    //Remember that in the contrary, when making a pointer to an array we are accessing the first element directly, this doesn't happen with vectors.
+
+    //Functions can return pointers
+
+    //Use the references in loops to change items, not using references will create copies of the current element.
+    for(string &str: str_vector){
+        str = 'Funny';
+    }
 
     return 0;
 }
