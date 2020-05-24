@@ -1,5 +1,5 @@
 - Compiler
-- Compiling and running from console
+- Compiling and running from terminal
 - Errors
     - Compiler Errors and Warnings
     - Linker
@@ -9,7 +9,7 @@
 - Namespaces
 - Main()
 - I/O cout, cin
-- Variables
+- Variables and constants
     - Declaring
     - Initializing
     - Types
