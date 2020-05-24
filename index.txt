@@ -1,0 +1,82 @@
+- Compiler
+- Compiling and running from console
+- Errors
+    - Compiler Errors and Warnings
+    - Linker
+    - Runtime
+    - lOGIC
+- Comments
+- Namespaces
+- Main()
+- I/O cout, cin
+- Variables
+    - Declaring
+    - Initializing
+    - Types
+    - Local/Global
+    - Constants
+    - Using constants
+- Arrays
+    - Memory allocation
+    - Pointers with arrays
+    - Multidimensional arrays
+    - Initializations
+    - Accessing/modifying (they have references on)
+- Vectors
+    - Memory allocation
+    - No references
+    - Initializing
+    - Types
+- Statements and operators
+    - Operators
+    - Arithmetic operators
+    - Logic operators
+    - Increment/Decrement operators
+    - Equality
+    - Priority of operators
+    - Compound assignment
+- Program flow
+    - If/Else if/ else
+    - Loops
+        - While
+        - For
+        - For range
+        - Do While
+        - Nested
+    - Conditionals
+    - Continue/Break
+    - Infinte loops
+- Chars and strings
+    - C style strings (literals)
+    - Cpp strings (object)
+- Functions
+    - Definition
+    - Prototypes
+    - Parameters and return statements
+    - Default arguments
+    - Overloading functions
+    - Passing arrays to functions
+    - Pass with references
+    - Scoping
+    - Inline functions
+    - Recursive functions
+- Pointers and references
+    - Declaring pointers
+    - Dereference pointers
+    - Dynamic memory allocation
+    - Memory allocation addresses and references
+    - Pointer arithmetic
+    - Constant pointers/Pointer to constant/ Constant pointer to constant
+    - Passing pointers to functions
+    - Returning pointers from functions
+    - References in variables
+        - Arrays references (default yes)
+        - Other variable references (denote with &)
+
+Libraries
+- iostream
+- cmath
+- cstdlib
+- vector
+- array
+- string
