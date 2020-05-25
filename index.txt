@@ -72,6 +72,22 @@
     - References in variables
         - Arrays references (default yes)
         - Other variable references (denote with &)
+-OOP
+    - Classes
+    - Constructors
+        - Defining
+        - Copying
+        - Deconstructors
+        - Overloading constructors
+        - No arg/args constructors
+    - .h/.cpp files
+    - Public/Private
+    - Attributes
+    - Methods
+    - Overloading methods
+    - This pointer
+    - Delegating constructors
+    - Structs
 
 Libraries
 - iostream
