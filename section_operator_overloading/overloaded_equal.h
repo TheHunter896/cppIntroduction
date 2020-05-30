@@ -7,6 +7,7 @@
 
 
 class overloaded_equal {
+    friend overloaded_equal operator-(const overloaded_equal &obj);
 private:
     char *str;
 public:
@@ -30,7 +31,7 @@ public:
 
     //- constructor
     overloaded_equal operator-(); //Dont need to use the reference here (make lowercase)
-    
+
 };
 
 

@@ -24,6 +24,8 @@ overloaded_equal & overloaded_equal::operator=(const overloaded_equal &rhs) {
     delete [] this->str; //If the class is different, we remove our allocated str in this object and create a new one
     this->str = new char[std::strlen(rhs.str) + 1]; //You can use (or not) the this-> operator, since the context is already instance b (in b = a)
     std::strcpy(this->str, rhs.str); //Copy rhs.str to this->str with one more length
+
+    return *this;
 }
 
 //OVERLOADING MOVE OPERATOR

@@ -3,4 +3,4 @@ project(udemy_course)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(udemy_course main.cpp section_functions/functions.cpp)
+add_executable(udemy_course main.cpp section_oop/class_constructor.cpp section_oop/Account.cpp section_oop/Account.h section_operator_overloading/wi_operator_overloading.cpp section_operator_overloading/overloaded_equal.cpp section_operator_overloading/overloaded_equal.h section_operator_overloading/overloaded_operators_global.cpp section_inheritance/inheritance.cpp)

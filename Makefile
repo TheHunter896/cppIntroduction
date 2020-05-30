@@ -151,32 +151,167 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\main.cpp.s
 .PHONY : main.cpp.s
 
-section_functions\functions.obj: section_functions\functions.cpp.obj
+section_inheritance\inheritance.obj: section_inheritance\inheritance.cpp.obj
 
-.PHONY : section_functions\functions.obj
+.PHONY : section_inheritance\inheritance.obj
 
 # target to build an object file
-section_functions\functions.cpp.obj:
-	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_functions\functions.cpp.obj
-.PHONY : section_functions\functions.cpp.obj
+section_inheritance\inheritance.cpp.obj:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_inheritance\inheritance.cpp.obj
+.PHONY : section_inheritance\inheritance.cpp.obj
 
-section_functions\functions.i: section_functions\functions.cpp.i
+section_inheritance\inheritance.i: section_inheritance\inheritance.cpp.i
 
-.PHONY : section_functions\functions.i
+.PHONY : section_inheritance\inheritance.i
 
 # target to preprocess a source file
-section_functions\functions.cpp.i:
-	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_functions\functions.cpp.i
-.PHONY : section_functions\functions.cpp.i
+section_inheritance\inheritance.cpp.i:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_inheritance\inheritance.cpp.i
+.PHONY : section_inheritance\inheritance.cpp.i
 
-section_functions\functions.s: section_functions\functions.cpp.s
+section_inheritance\inheritance.s: section_inheritance\inheritance.cpp.s
 
-.PHONY : section_functions\functions.s
+.PHONY : section_inheritance\inheritance.s
 
 # target to generate assembly for a file
-section_functions\functions.cpp.s:
-	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_functions\functions.cpp.s
-.PHONY : section_functions\functions.cpp.s
+section_inheritance\inheritance.cpp.s:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_inheritance\inheritance.cpp.s
+.PHONY : section_inheritance\inheritance.cpp.s
+
+section_oop\Account.obj: section_oop\Account.cpp.obj
+
+.PHONY : section_oop\Account.obj
+
+# target to build an object file
+section_oop\Account.cpp.obj:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_oop\Account.cpp.obj
+.PHONY : section_oop\Account.cpp.obj
+
+section_oop\Account.i: section_oop\Account.cpp.i
+
+.PHONY : section_oop\Account.i
+
+# target to preprocess a source file
+section_oop\Account.cpp.i:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_oop\Account.cpp.i
+.PHONY : section_oop\Account.cpp.i
+
+section_oop\Account.s: section_oop\Account.cpp.s
+
+.PHONY : section_oop\Account.s
+
+# target to generate assembly for a file
+section_oop\Account.cpp.s:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_oop\Account.cpp.s
+.PHONY : section_oop\Account.cpp.s
+
+section_oop\class_constructor.obj: section_oop\class_constructor.cpp.obj
+
+.PHONY : section_oop\class_constructor.obj
+
+# target to build an object file
+section_oop\class_constructor.cpp.obj:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_oop\class_constructor.cpp.obj
+.PHONY : section_oop\class_constructor.cpp.obj
+
+section_oop\class_constructor.i: section_oop\class_constructor.cpp.i
+
+.PHONY : section_oop\class_constructor.i
+
+# target to preprocess a source file
+section_oop\class_constructor.cpp.i:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_oop\class_constructor.cpp.i
+.PHONY : section_oop\class_constructor.cpp.i
+
+section_oop\class_constructor.s: section_oop\class_constructor.cpp.s
+
+.PHONY : section_oop\class_constructor.s
+
+# target to generate assembly for a file
+section_oop\class_constructor.cpp.s:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_oop\class_constructor.cpp.s
+.PHONY : section_oop\class_constructor.cpp.s
+
+section_operator_overloading\overloaded_equal.obj: section_operator_overloading\overloaded_equal.cpp.obj
+
+.PHONY : section_operator_overloading\overloaded_equal.obj
+
+# target to build an object file
+section_operator_overloading\overloaded_equal.cpp.obj:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_operator_overloading\overloaded_equal.cpp.obj
+.PHONY : section_operator_overloading\overloaded_equal.cpp.obj
+
+section_operator_overloading\overloaded_equal.i: section_operator_overloading\overloaded_equal.cpp.i
+
+.PHONY : section_operator_overloading\overloaded_equal.i
+
+# target to preprocess a source file
+section_operator_overloading\overloaded_equal.cpp.i:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_operator_overloading\overloaded_equal.cpp.i
+.PHONY : section_operator_overloading\overloaded_equal.cpp.i
+
+section_operator_overloading\overloaded_equal.s: section_operator_overloading\overloaded_equal.cpp.s
+
+.PHONY : section_operator_overloading\overloaded_equal.s
+
+# target to generate assembly for a file
+section_operator_overloading\overloaded_equal.cpp.s:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_operator_overloading\overloaded_equal.cpp.s
+.PHONY : section_operator_overloading\overloaded_equal.cpp.s
+
+section_operator_overloading\overloaded_operators_global.obj: section_operator_overloading\overloaded_operators_global.cpp.obj
+
+.PHONY : section_operator_overloading\overloaded_operators_global.obj
+
+# target to build an object file
+section_operator_overloading\overloaded_operators_global.cpp.obj:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_operator_overloading\overloaded_operators_global.cpp.obj
+.PHONY : section_operator_overloading\overloaded_operators_global.cpp.obj
+
+section_operator_overloading\overloaded_operators_global.i: section_operator_overloading\overloaded_operators_global.cpp.i
+
+.PHONY : section_operator_overloading\overloaded_operators_global.i
+
+# target to preprocess a source file
+section_operator_overloading\overloaded_operators_global.cpp.i:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_operator_overloading\overloaded_operators_global.cpp.i
+.PHONY : section_operator_overloading\overloaded_operators_global.cpp.i
+
+section_operator_overloading\overloaded_operators_global.s: section_operator_overloading\overloaded_operators_global.cpp.s
+
+.PHONY : section_operator_overloading\overloaded_operators_global.s
+
+# target to generate assembly for a file
+section_operator_overloading\overloaded_operators_global.cpp.s:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_operator_overloading\overloaded_operators_global.cpp.s
+.PHONY : section_operator_overloading\overloaded_operators_global.cpp.s
+
+section_operator_overloading\wi_operator_overloading.obj: section_operator_overloading\wi_operator_overloading.cpp.obj
+
+.PHONY : section_operator_overloading\wi_operator_overloading.obj
+
+# target to build an object file
+section_operator_overloading\wi_operator_overloading.cpp.obj:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_operator_overloading\wi_operator_overloading.cpp.obj
+.PHONY : section_operator_overloading\wi_operator_overloading.cpp.obj
+
+section_operator_overloading\wi_operator_overloading.i: section_operator_overloading\wi_operator_overloading.cpp.i
+
+.PHONY : section_operator_overloading\wi_operator_overloading.i
+
+# target to preprocess a source file
+section_operator_overloading\wi_operator_overloading.cpp.i:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_operator_overloading\wi_operator_overloading.cpp.i
+.PHONY : section_operator_overloading\wi_operator_overloading.cpp.i
+
+section_operator_overloading\wi_operator_overloading.s: section_operator_overloading\wi_operator_overloading.cpp.s
+
+.PHONY : section_operator_overloading\wi_operator_overloading.s
+
+# target to generate assembly for a file
+section_operator_overloading\wi_operator_overloading.cpp.s:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_operator_overloading\wi_operator_overloading.cpp.s
+.PHONY : section_operator_overloading\wi_operator_overloading.cpp.s
 
 # Help Target
 help:
@@ -190,9 +325,24 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... section_functions/functions.obj
-	@echo ... section_functions/functions.i
-	@echo ... section_functions/functions.s
+	@echo ... section_inheritance/inheritance.obj
+	@echo ... section_inheritance/inheritance.i
+	@echo ... section_inheritance/inheritance.s
+	@echo ... section_oop/Account.obj
+	@echo ... section_oop/Account.i
+	@echo ... section_oop/Account.s
+	@echo ... section_oop/class_constructor.obj
+	@echo ... section_oop/class_constructor.i
+	@echo ... section_oop/class_constructor.s
+	@echo ... section_operator_overloading/overloaded_equal.obj
+	@echo ... section_operator_overloading/overloaded_equal.i
+	@echo ... section_operator_overloading/overloaded_equal.s
+	@echo ... section_operator_overloading/overloaded_operators_global.obj
+	@echo ... section_operator_overloading/overloaded_operators_global.i
+	@echo ... section_operator_overloading/overloaded_operators_global.s
+	@echo ... section_operator_overloading/wi_operator_overloading.obj
+	@echo ... section_operator_overloading/wi_operator_overloading.i
+	@echo ... section_operator_overloading/wi_operator_overloading.s
 .PHONY : help
 
 
