@@ -40,10 +40,10 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Clion\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Clion\CLion 202.5428.21\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Clion\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Clion\CLion 202.5428.21\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -60,7 +60,7 @@ CMAKE_BINARY_DIR = D:\Clion\Projects\udemy_course
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "D:\Clion\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "D:\Clion\CLion 202.5428.21\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -71,7 +71,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "D:\Clion\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "D:\Clion\CLion 202.5428.21\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -177,6 +177,33 @@ section_inheritance\inheritance.s: section_inheritance\inheritance.cpp.s
 section_inheritance\inheritance.cpp.s:
 	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_inheritance\inheritance.cpp.s
 .PHONY : section_inheritance\inheritance.cpp.s
+
+section_iostream\streams.obj: section_iostream\streams.cpp.obj
+
+.PHONY : section_iostream\streams.obj
+
+# target to build an object file
+section_iostream\streams.cpp.obj:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_iostream\streams.cpp.obj
+.PHONY : section_iostream\streams.cpp.obj
+
+section_iostream\streams.i: section_iostream\streams.cpp.i
+
+.PHONY : section_iostream\streams.i
+
+# target to preprocess a source file
+section_iostream\streams.cpp.i:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_iostream\streams.cpp.i
+.PHONY : section_iostream\streams.cpp.i
+
+section_iostream\streams.s: section_iostream\streams.cpp.s
+
+.PHONY : section_iostream\streams.s
+
+# target to generate assembly for a file
+section_iostream\streams.cpp.s:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_iostream\streams.cpp.s
+.PHONY : section_iostream\streams.cpp.s
 
 section_oop\Account.obj: section_oop\Account.cpp.obj
 
@@ -313,6 +340,87 @@ section_operator_overloading\wi_operator_overloading.cpp.s:
 	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_operator_overloading\wi_operator_overloading.cpp.s
 .PHONY : section_operator_overloading\wi_operator_overloading.cpp.s
 
+section_polymorphism\polymorphism.obj: section_polymorphism\polymorphism.cpp.obj
+
+.PHONY : section_polymorphism\polymorphism.obj
+
+# target to build an object file
+section_polymorphism\polymorphism.cpp.obj:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_polymorphism\polymorphism.cpp.obj
+.PHONY : section_polymorphism\polymorphism.cpp.obj
+
+section_polymorphism\polymorphism.i: section_polymorphism\polymorphism.cpp.i
+
+.PHONY : section_polymorphism\polymorphism.i
+
+# target to preprocess a source file
+section_polymorphism\polymorphism.cpp.i:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_polymorphism\polymorphism.cpp.i
+.PHONY : section_polymorphism\polymorphism.cpp.i
+
+section_polymorphism\polymorphism.s: section_polymorphism\polymorphism.cpp.s
+
+.PHONY : section_polymorphism\polymorphism.s
+
+# target to generate assembly for a file
+section_polymorphism\polymorphism.cpp.s:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_polymorphism\polymorphism.cpp.s
+.PHONY : section_polymorphism\polymorphism.cpp.s
+
+section_smart_pointers\shared_pointers.obj: section_smart_pointers\shared_pointers.cpp.obj
+
+.PHONY : section_smart_pointers\shared_pointers.obj
+
+# target to build an object file
+section_smart_pointers\shared_pointers.cpp.obj:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_smart_pointers\shared_pointers.cpp.obj
+.PHONY : section_smart_pointers\shared_pointers.cpp.obj
+
+section_smart_pointers\shared_pointers.i: section_smart_pointers\shared_pointers.cpp.i
+
+.PHONY : section_smart_pointers\shared_pointers.i
+
+# target to preprocess a source file
+section_smart_pointers\shared_pointers.cpp.i:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_smart_pointers\shared_pointers.cpp.i
+.PHONY : section_smart_pointers\shared_pointers.cpp.i
+
+section_smart_pointers\shared_pointers.s: section_smart_pointers\shared_pointers.cpp.s
+
+.PHONY : section_smart_pointers\shared_pointers.s
+
+# target to generate assembly for a file
+section_smart_pointers\shared_pointers.cpp.s:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_smart_pointers\shared_pointers.cpp.s
+.PHONY : section_smart_pointers\shared_pointers.cpp.s
+
+section_smart_pointers\unique_pointers.obj: section_smart_pointers\unique_pointers.cpp.obj
+
+.PHONY : section_smart_pointers\unique_pointers.obj
+
+# target to build an object file
+section_smart_pointers\unique_pointers.cpp.obj:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_smart_pointers\unique_pointers.cpp.obj
+.PHONY : section_smart_pointers\unique_pointers.cpp.obj
+
+section_smart_pointers\unique_pointers.i: section_smart_pointers\unique_pointers.cpp.i
+
+.PHONY : section_smart_pointers\unique_pointers.i
+
+# target to preprocess a source file
+section_smart_pointers\unique_pointers.cpp.i:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_smart_pointers\unique_pointers.cpp.i
+.PHONY : section_smart_pointers\unique_pointers.cpp.i
+
+section_smart_pointers\unique_pointers.s: section_smart_pointers\unique_pointers.cpp.s
+
+.PHONY : section_smart_pointers\unique_pointers.s
+
+# target to generate assembly for a file
+section_smart_pointers\unique_pointers.cpp.s:
+	$(MAKE) -f CMakeFiles\udemy_course.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\udemy_course.dir\section_smart_pointers\unique_pointers.cpp.s
+.PHONY : section_smart_pointers\unique_pointers.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -328,6 +436,9 @@ help:
 	@echo ... section_inheritance/inheritance.obj
 	@echo ... section_inheritance/inheritance.i
 	@echo ... section_inheritance/inheritance.s
+	@echo ... section_iostream/streams.obj
+	@echo ... section_iostream/streams.i
+	@echo ... section_iostream/streams.s
 	@echo ... section_oop/Account.obj
 	@echo ... section_oop/Account.i
 	@echo ... section_oop/Account.s
@@ -343,6 +454,15 @@ help:
 	@echo ... section_operator_overloading/wi_operator_overloading.obj
 	@echo ... section_operator_overloading/wi_operator_overloading.i
 	@echo ... section_operator_overloading/wi_operator_overloading.s
+	@echo ... section_polymorphism/polymorphism.obj
+	@echo ... section_polymorphism/polymorphism.i
+	@echo ... section_polymorphism/polymorphism.s
+	@echo ... section_smart_pointers/shared_pointers.obj
+	@echo ... section_smart_pointers/shared_pointers.i
+	@echo ... section_smart_pointers/shared_pointers.s
+	@echo ... section_smart_pointers/unique_pointers.obj
+	@echo ... section_smart_pointers/unique_pointers.i
+	@echo ... section_smart_pointers/unique_pointers.s
 .PHONY : help
 
 
